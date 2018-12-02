@@ -1,0 +1,46 @@
+﻿  main.cpp
+c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\generating-another-curve\curvepoints\main.cpp(105): warning C4267: 'argumento': conversão de 'size_t' para 'GLsizei', possível perda de dados
+c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\generating-another-curve\curvepoints\main.cpp(117): warning C4102: 'std': rótulo não referenciado
+c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\generating-another-curve\curvepoints\main.cpp(181): warning C4244: 'argumento': conversão de 'double' para 'float', possível perda de dados
+c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\generating-another-curve\curvepoints\main.cpp(206): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\generating-another-curve\curvepoints\main.cpp(207): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\generating-another-curve\curvepoints\main.cpp(248): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\generating-another-curve\curvepoints\main.cpp(299): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
+c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\generating-another-curve\curvepoints\main.cpp(302): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
+c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\generating-another-curve\curvepoints\main.cpp(305): warning C4244: 'inicializando': conversão de 'double' para 'GLfloat', possível perda de dados
+c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\generating-another-curve\curvepoints\main.cpp(306): warning C4244: 'inicializando': conversão de 'double' para 'GLfloat', possível perda de dados
+main.obj : error LNK2019: símbolo externo indefinido glfwInit referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwTerminate referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwWindowHint referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwCreateWindow referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwWindowShouldClose referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwSetWindowShouldClose referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwGetFramebufferSize referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwPollEvents referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwGetKey referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwGetCursorPos referenciado na função "void __cdecl mouse_button_callback(struct GLFWwindow *,int,int,int)" (?mouse_button_callback@@YAXPEAUGLFWwindow@@HHH@Z)
+main.obj : error LNK2019: símbolo externo indefinido glfwSetMouseButtonCallback referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwMakeContextCurrent referenciado na função main
+main.obj : error LNK2019: símbolo externo indefinido glfwSwapBuffers referenciado na função main
+main.obj : error LNK2001: símbolos externos indefinidos __glewBindBuffer
+main.obj : error LNK2001: símbolos externos indefinidos __glewBufferData
+main.obj : error LNK2001: símbolos externos indefinidos __glewGenBuffers
+main.obj : error LNK2001: símbolos externos indefinidos __glewAttachShader
+main.obj : error LNK2001: símbolos externos indefinidos __glewCompileShader
+main.obj : error LNK2001: símbolos externos indefinidos __glewCreateProgram
+main.obj : error LNK2001: símbolos externos indefinidos __glewCreateShader
+main.obj : error LNK2001: símbolos externos indefinidos __glewDeleteShader
+main.obj : error LNK2001: símbolos externos indefinidos __glewEnableVertexAttribArray
+main.obj : error LNK2001: símbolos externos indefinidos __glewGetProgramInfoLog
+main.obj : error LNK2001: símbolos externos indefinidos __glewGetProgramiv
+main.obj : error LNK2001: símbolos externos indefinidos __glewGetShaderInfoLog
+main.obj : error LNK2001: símbolos externos indefinidos __glewGetShaderiv
+main.obj : error LNK2001: símbolos externos indefinidos __glewLinkProgram
+main.obj : error LNK2001: símbolos externos indefinidos __glewShaderSource
+main.obj : error LNK2001: símbolos externos indefinidos __glewUseProgram
+main.obj : error LNK2001: símbolos externos indefinidos __glewVertexAttribPointer
+main.obj : error LNK2001: símbolos externos indefinidos __glewBindVertexArray
+main.obj : error LNK2001: símbolos externos indefinidos __glewGenVertexArrays
+main.obj : error LNK2001: símbolos externos indefinidos glewExperimental
+..\External\GLFW\lib-vc2015\glfw3.lib : warning LNK4272: o tipo de máquina da biblioteca 'x86' está em conflito com o tipo de máquina de destino 'x64'
+C:\Users\SavannaDenegaMachado\source\repos\CG\- ProjetoCG-GB\generating-another-curve\x64\Debug\CurvePoints.exe : fatal error LNK1120: 33 externo não resolvidos
