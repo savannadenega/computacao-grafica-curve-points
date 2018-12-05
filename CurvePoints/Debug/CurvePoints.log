@@ -1,20 +1,16 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (09_curve.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  main.cpp
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(119): warning C4018: '<': incompatibilidade de signed/unsigned
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(117): warning C4102: 'std': rótulo não referenciado
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(181): warning C4244: 'argumento': conversão de 'double' para 'float', possível perda de dados
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(206): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(207): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(234): warning C4018: '<': incompatibilidade de signed/unsigned
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(244): warning C4018: '<': incompatibilidade de signed/unsigned
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(248): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(276): warning C4018: '<': incompatibilidade de signed/unsigned
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(299): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(302): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(305): warning C4244: 'inicializando': conversão de 'double' para 'GLfloat', possível perda de dados
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(306): warning C4244: 'inicializando': conversão de 'double' para 'GLfloat', possível perda de dados
-c:\users\savannadenegamachado\source\repos\cg\- projetocg-gb\projeto-cg-curve-points\curvepoints\main.cpp(323): warning C4018: '<': incompatibilidade de signed/unsigned
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflita com uso de outras bibliotecas; use /NODEFAULTLIB:library
-LINK : warning LNK4098: defaultlib 'LIBCMT' conflita com uso de outras bibliotecas; use /NODEFAULTLIB:library
-glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' não foi encontrado 'glew32s.lib(glew.obj)' ou no 'C:\Users\SavannaDenegaMachado\source\repos\CG\- ProjetoCG-GB\projeto-cg-curve-points\Debug\vc120.pdb'; vinculando objeto quando quando sem nenhuma informação de depuração
-  CurvePoints.vcxproj -> C:\Users\SavannaDenegaMachado\source\repos\CG\- ProjetoCG-GB\projeto-cg-curve-points\Debug\CurvePoints.exe
+﻿  main.cpp
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(119): warning C4018: '<': incompatibilidade de signed/unsigned
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(117): warning C4102: 'std': rótulo não referenciado
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(181): warning C4244: 'argumento': conversão de 'double' para 'float', possível perda de dados
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(206): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(207): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(234): warning C4018: '<': incompatibilidade de signed/unsigned
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(244): warning C4018: '<': incompatibilidade de signed/unsigned
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(248): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(276): warning C4018: '<': incompatibilidade de signed/unsigned
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(299): warning C4305: '+=': truncamento de 'double' para 'GLfloat'
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(302): warning C4305: '-=': truncamento de 'double' para 'GLfloat'
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(305): warning C4244: 'inicializando': conversão de 'double' para 'GLfloat', possível perda de dados
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(306): warning C4244: 'inicializando': conversão de 'double' para 'GLfloat', possível perda de dados
+c:\users\junior\projeto-cg-curve-points-full\curvepoints\main.cpp(323): warning C4018: '<': incompatibilidade de signed/unsigned
+  CurvePoints.vcxproj -> C:\Users\Junior\projeto-cg-curve-points-full\Debug\CurvePoints.exe
