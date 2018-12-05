@@ -30,6 +30,7 @@ const GLint WIDTH = 1200, HEIGHT = 900;
 
 // gerando vetores que vamos utilizar
 // pontos selecionados
+
 vector<glm::vec3*>* pontosSelecionados = new vector<glm::vec3*>();
 // a curva inteira original
 vector<glm::vec3*>* curvaOriginal = new vector<glm::vec3*>();
@@ -136,9 +137,9 @@ int main() {
 			// vai dando bind no vao
 			glBindVertexArray(vao);
 			// e desenhando os triangulos, porem enviando para o vetor de pontos finais
-			glDrawArrays(GL_TRIANGLES, 0, pontosFinaisFloat->size());
-		}		
 
+			glDrawArrays(GL_TRIANGLES, 0, pontosFinaisFloat->size());
+		}
 		// gera o desenho na tela
 		glfwSwapBuffers(window);
 	}
@@ -229,7 +230,9 @@ void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
 		// gera um novo vec3 com o ponto para a curva
 		glm::vec3* point = new glm::vec3(xpos, ypos, 0.0);
 		// adiciona ao vetor de pontos selecionados
+
 		pontosSelecionados->push_back(point);
+
 		cout << "- Ponto de Controle Computado:" << endl;
 		cout << "x = " << xpos << endl;
 		cout << "y = " << ypos << endl;		
@@ -262,9 +265,10 @@ void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
 		curvaInterna = gerarCurvaExternaInterna(curvaOriginal, false);
 
 		// tamanho do arrya dividido por 2 - porque a metade desses valores e cor branca
+
 		tamanhoCurvaExterna = curvaExterna->size() / 2.0;
 		tamanhoCurvaInterna = curvaInterna->size() / 2.0;
-		
+
 		OBJWriter OBJWriter;
 		OBJWriter.saveTextureValuesToOBJ();
 
@@ -283,7 +287,9 @@ void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
 }
 
 // gera a curva (pontos) de um ponto ao outro
+
 vector<glm::vec3*>* gerarCurva(vector<glm::vec3*>* points) {
+
 	// cria o txt
 	TXTWriter TXTWriter;
 	TXTWriter.createTXTFile();
@@ -325,23 +331,28 @@ vector<glm::vec3*>* gerarCurva(vector<glm::vec3*>* points) {
 			// depois da conversao de x e y coloca em uma vec3
 			glm::vec3* point = new glm::vec3(x, y, 0.0);
 			// adiciona o ponto no vetor de curvas calculadas
+
 			curvaCalculada->push_back(point);
+
 			// adiciona o ponto no txt
 			TXTWriter.addPoint(point->x, point->y, point->z);
 
 			// adiciona cor branca para a curva
+
 			curvaCalculada->push_back(new glm::vec3(1.0, 0.0, 1.0));
+
 		}	
 	}
 	// termina o arquivo txt
 	TXTWriter.closeTXTFile();
 	cout << "Curva gerada com sucesso!" << endl;
 	// retorna um vec3 com os pontos da curva
+
 	return curvaCalculada;
 }
 
 vector<glm::vec3*>* gerarCurvaExternaInterna(vector<glm::vec3*>* points, bool external) {
-	
+
 	// recebe os pontos da curva original do meio
 	
 	OBJWriter OBJWriter;
@@ -383,6 +394,7 @@ vector<glm::vec3*>* gerarCurvaExternaInterna(vector<glm::vec3*>* points, bool ex
 		GLfloat offsetY = glm::sin(angle) * 0.09;
 		
 		// pronto da curva principal + escala
+
 		glm::vec3* pontosGerados = new glm::vec3(a->x + offsetX, a->y + offsetY, 0.0);
 
 		calculatedCurve->push_back(pontosGerados);
@@ -392,6 +404,7 @@ vector<glm::vec3*>* gerarCurvaExternaInterna(vector<glm::vec3*>* points, bool ex
 		
 		// adiciona cor branca para curva
 		calculatedCurve->push_back(new glm::vec3(1.0, 0.0, 1.0)); 
+
 	}
 	return calculatedCurve;
 }
@@ -492,6 +505,7 @@ vector<glm::vec3*>* gerarCurvaFinal(vector<glm::vec3*>* internalCurve, vector<gl
 	pontosFinais->push_back(externalCurve->at(i + 1));
 
 	OBJWriter.addFaces(index, tamanhoCurvaExterna, ++faces, 4);
+
 	// pega os vetores das normais
 	// y e z sao invertidos para modificar os eixos
 	// produto escalar
