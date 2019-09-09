@@ -5,7 +5,7 @@ Projeto de criação de curvas para geração de objeto 3D, para a disciplina de
 ## Ferramentas:
 - Linguagem C;
 - Linguagem C ++;
-- Object-C;
+- Objective-C;
 - Software Visual Studio.
 
 ## Como executar:
