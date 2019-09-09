@@ -1,4 +1,4 @@
-# projeto-cg-curve-points
+# computacao-grafica-curve-points
 
 Projeto de criação de curvas para geração de objeto 3D, para a disciplina de Computação Gráfica, Unisinos 2018-2.
 
@@ -9,4 +9,5 @@ Projeto de criação de curvas para geração de objeto 3D, para a disciplina de
 - Software Visual Studio.
 
 ## Como executar:
-
+- Este projeto foi executado utilizando o software Visual Studio.
+- Este projeto é dependente do projeto ()[], então para executar corretamente, documento de saída gerado neste projeto deve ser copiado e colado dentro do projeto ... .
